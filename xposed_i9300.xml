@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<!-- Replaced projects -->
+		<remove-project name="temasek/android_bionic" />
+		<project name="arter97/android_bionic-temasek_i9300" path="bionic" remote="github" />
+
+		<remove-project name="temasek/android_frameworks_av" />
+		<project name="arter97/android_frameworks_av-temasek_i9300" path="frameworks/av" remote="github" />
+
+		<remove-project name="temasek/android_frameworks_base" />
+		<project name="arter97/android_frameworks_base-temasek_i9300" path="frameworks/base" remote="github" />
+
+		<remove-project name="temasek/android_frameworks_native" />
+		<project name="arter97/android_frameworks_native-temasek_i9300" path="frameworks/native" remote="github" />
+
+	<!-- /Replaced projects -->
+
+	<!-- Devices -->
+		<!-- i9300 -->
+			<project name="CyanogenMod/android_device_samsung_i9300" path="device/samsung/i9300" remote="github" />
+			<project name="CyanogenMod/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" />
+			<project name="CyanogenMod/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" />
+			<project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" />
+			<project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" />
+
+
+			<project name="ArchiDroid/proprietary_vendor_samsung" path="vendor/samsung" remote="github" />
+
+
+			<remove-project name="CyanogenMod/android_device_samsung_i9300" />
+			<project name="arter97/android_device_samsung_i9300" path="device/samsung/i9300" remote="github" />
+
+			<remove-project name="CyanogenMod/android_device_samsung_smdk4412-common" />
+			<project name="arter97/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" />
+
+			<remove-project name="CyanogenMod/android_kernel_samsung_smdk4412" />
+			<project name="arter97/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" />
+
+			<remove-project name="CyanogenMod/android_hardware_samsung" />
+			<project name="ArchiDroid/android_hardware_samsung" path="hardware/samsung" remote="github" />
+		<!-- /i9300 -->
+	<!-- /Devices -->
+
+  <!-- Source-built Xposed dependencies -->
+  <remove-project name="temasek/android_art" />
+  <project name="arter97/android_art" path="art" remote="github" revision="xposed" />
+  <project name="rovo89/Xposed" path="frameworks/base/cmds/xposed" remote="github" revision="master" />
+
+</manifest>

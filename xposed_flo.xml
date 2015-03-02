@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="arter97/android_device_asus_flo" path="device/asus/flo" remote="github" />
+  <project name="arter97/android_kernel_google_msm" path="kernel/google/msm" remote="github" />
+  <project name="TheMuppets/proprietary_vendor_asus" path="vendor/asus" remote="github" />
+
+  <!-- Source-built Xposed dependencies -->
+  <remove-project name="temasek/android_art" />
+  <project name="arter97/android_art" path="art" remote="github" revision="xposed" />
+  <project name="rovo89/Xposed" path="frameworks/base/cmds/xposed" remote="github" revision="master" />
+
+</manifest>

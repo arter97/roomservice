@@ -34,7 +34,7 @@
 			<project name="arter97/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" />
 
 			<remove-project name="CyanogenMod/android_kernel_samsung_smdk4412" />
-			<project name="arter97/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" />
+			<project name="ArchiDroid/ArchiKernel" path="kernel/samsung/smdk4412" remote="github" revision="smdk4412" />
 
 			<remove-project name="CyanogenMod/android_hardware_samsung" />
 			<project name="ArchiDroid/android_hardware_samsung" path="hardware/samsung" remote="github" />

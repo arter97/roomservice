@@ -2,16 +2,16 @@
 <manifest>
 	<!-- Replaced projects -->
 		<remove-project name="temasek/android_bionic" />
-		<project name="arter97/android_bionic-temasek_i9300" path="bionic" remote="github" />
+		<project name="arter97-temasek-i9300/android_bionic" path="bionic" remote="github" />
 
 		<remove-project name="temasek/android_frameworks_av" />
-		<project name="arter97/android_frameworks_av-temasek_i9300" path="frameworks/av" remote="github" />
+		<project name="arter97-temasek-i9300/android_frameworks_av" path="frameworks/av" remote="github" />
 
 		<remove-project name="temasek/android_frameworks_base" />
-		<project name="arter97/android_frameworks_base-temasek_i9300" path="frameworks/base" remote="github" />
+		<project name="arter97-temasek-i9300/android_frameworks_base" path="frameworks/base" remote="github" />
 
 		<remove-project name="temasek/android_frameworks_native" />
-		<project name="arter97/android_frameworks_native-temasek_i9300" path="frameworks/native" remote="github" />
+		<project name="arter97-temasek-i9300/android_frameworks_native" path="frameworks/native" remote="github" />
 
 	<!-- /Replaced projects -->
 
@@ -28,10 +28,10 @@
 
 
 			<remove-project name="CyanogenMod/android_device_samsung_i9300" />
-			<project name="arter97/android_device_samsung_i9300" path="device/samsung/i9300" remote="github" />
+			<project name="arter97-temasek-i9300/android_device_samsung_i9300" path="device/samsung/i9300" remote="github" />
 
 			<remove-project name="CyanogenMod/android_device_samsung_smdk4412-common" />
-			<project name="arter97/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" />
+			<project name="arter97-temasek-i9300/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" />
 
 			<remove-project name="CyanogenMod/android_kernel_samsung_smdk4412" />
 			<project name="ArchiDroid/ArchiKernel" path="kernel/samsung/smdk4412" remote="github" revision="smdk4412" />

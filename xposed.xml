@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Source-built Xposed dependencies -->
+  <remove-project name="temasek/android_art" />
+  <project name="arter97/android_art" path="art" remote="github" revision="cm-12.1" />
+  <project name="romracer/Xposed" path="frameworks/base/cmds/xposed" remote="github" revision="master" />
+</manifest>

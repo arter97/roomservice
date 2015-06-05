@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<!-- Replaced projects -->
-		<remove-project name="temasek/android_bionic" />
-		<project name="arter97-temasek-i9300/android_bionic" path="bionic" remote="github" />
-
 		<remove-project name="temasek/android_frameworks_av" />
 		<project name="arter97-temasek-i9300/android_frameworks_av" path="frameworks/av" remote="github" />
 

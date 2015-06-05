@@ -37,7 +37,7 @@
 			<project name="ArchiDroid/ArchiKernel" path="kernel/samsung/smdk4412" remote="github" revision="smdk4412" />
 
 			<remove-project name="CyanogenMod/android_hardware_samsung" />
-			<project name="arter97-temasek-i9300/android_hardware_samsung" path="hardware/samsung" remote="github" />
+			<project name="ArchiDroid/android_hardware_samsung" path="hardware/samsung" remote="github" />
 		<!-- /i9300 -->
 	<!-- /Devices -->
 </manifest>

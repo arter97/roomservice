@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="CM-Shield/android_device_nvidia_shieldtablet" path="device/nvidia/shieldtablet" remote="github" />
+  <project name="CM-Shield/android_device_nvidia_shield-common" path="device/nvidia/shield-common" remote="github" />
+  <project name="CM-Shield/android_kernel_nvidia_shieldtablet" path="kernel/nvidia/shieldtablet" remote="github" />
+  <project name="CM-Shield/proprietary_vendor_nvidia" path="vendor/nvidia" remote="github" />
+</manifest>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="device/samsung/zero-common" name="arter97/android_device_samsung_zero-common" remote="github" revision="cm-12.1" />
+  <project path="device/samsung/zeroflte" name="arter97/android_device_samsung_zeroflte" remote="github" revision="cm-12.1" />
+  <project path="kernel/samsung/exynos7420" name="bmc08gt/kernel_samsung_exynos7420" remote="github" revision="cm-12.1" />
+  <project path="hardware/samsung_slsi-cm/exynos7420" name="arter97/android_hardware_samsung_slsi-cm_exynos7420" remote="github" revision="cm-12.1" />
+  <project path="vendor/samsung" name="arter97/proprietary_vendor_samsung_zeroflte" remote="github" revision="cm-12.1" />
+</manifest>

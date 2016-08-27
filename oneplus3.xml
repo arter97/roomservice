@@ -3,10 +3,6 @@
   <project name="arter97/android_device_oneplus_oneplus3" path="device/oneplus/oneplus3" remote="github" />
   <project name="CyanogenMod/android_device_oppo_common" path="device/oppo/common" remote="github" />
   <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" />
-  <!-- Replace audio HAL -->
-    <remove-project name="CyanogenMod/android_hardware_qcom_audio" />
-    <project name="arter97/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8996" remote="github" groups="qcom,qcom_audio" revision="cm-13.0-caf-8996" />
-  <!-- -->
   <project name="CyanogenMod/android_kernel_oneplus_msm8996" path="kernel/oneplus/msm8996" remote="github" />
   <project name="CyanogenMod/android_vendor_nxp-nfc_opensource_frameworks" path="vendor/nxp-nfc/opensource/frameworks" remote="github" />
   <project name="CyanogenMod/android_vendor_nxp-nfc_opensource_libnfc-nci" path="vendor/nxp-nfc/opensource/libnfc-nci" remote="github" />
